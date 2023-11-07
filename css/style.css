@@ -122,7 +122,7 @@ font-size: 30px;
 .content-box p{
     color: #fff;
 }
-
+/*about*/
 .about li a{
     color:black;
     display: inline-block;
@@ -137,6 +137,25 @@ font-size: 30px;
 
 
 
-.about li a :hover{
+.about li a:hover{
     color:green;
+}
+
+
+/*skils*/
+
+.exp-class .progress {
+    height: 10px;
+    border-radius: 20px;
+    font-size: 10px;
+
+}
+
+.progress-bar{
+    background-color: green !important;
+}
+
+.exp-class label{
+    font-size: 20px;
+    margin: 10px;
 }
