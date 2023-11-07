@@ -8,4 +8,13 @@ $(document).ready(function(){
         }
 
     })
-})
+    var typed = new Typed(".element",{
+        strings: ["Asmae MOUBARRIZ","A Computer Engineer"],
+        smartBackspace:true,
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true,
+        loopCount:Infinity,
+        startDelay:1000
+    });
+});
