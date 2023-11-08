@@ -22,6 +22,11 @@ color: #edf2f4 !important;
     padding-top: 88px;
     padding-bottom: 80px;
 }
+.r-btn{
+    padding:5px 20px;
+    background-color: #edf2f4 !important;
+    color: #1d3557  !important;
+}
 body{
     background-color:#1d3557;
 }
@@ -195,7 +200,7 @@ margin: 15px   auto;
 background: #edf2f4;
 }
 
-.projects-class .card p ,h5{
+.projects-class .card p,h5{
     color: #1d3557 !important;
 }
 
