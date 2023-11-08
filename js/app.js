@@ -19,7 +19,9 @@ $(document).ready(function(){
     });
 
     //progress bars
-
+    var waypoint = new Waypoint({
+        element: document.getElementById('exp-id'),
+        handler: function() {
     var p =document.querySelectorAll('.progress-bar');
     p[0].setAttribute("style","width:95%;transition:1s all");
     p[1].setAttribute("style","width:70%;transition:1.5s all");
@@ -28,4 +30,11 @@ $(document).ready(function(){
     p[4].setAttribute("style","width:95%;transition:2.3s all");
     p[5].setAttribute("style","width:90%;transition:2.5s all");
     p[6].setAttribute("style","width:70%;transition:2.7s all");
+
+        },
+
+        offset:'90%'
+
+      });
+
 });
