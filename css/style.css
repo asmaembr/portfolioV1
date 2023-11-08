@@ -174,19 +174,33 @@ font-size: 30px;
     margin: 10px;
 }
 
-/*projects*/
-.projects-class .card-header i{
-    color:#1d3557;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    line-height: 40px;
-    transition: 0.5s all;
-    text-align: center;
+/* Project Section*/
+
+.card .card-header{
+    background: #edf2f4 !important;
 }
-.projects-class  a{
-    color:#1d3557;
+.card-header{
+    border: none !important;
+}
+
+.projects-class .card-header i{
+    font-size : 50px;
+    color: #1d3557 !important;
+}
+
+.projects-border{
+height: 2px;
+width: 40px ;
+margin: 15px   auto;
+background: #edf2f4;
+}
+
+.projects-class .card p ,h5{
+    color: #1d3557 !important;
+}
+
+.projects-class  .git {
+    color: #1d3557;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -196,6 +210,7 @@ font-size: 30px;
     text-align: center;
 }
 
-.projects-class  a:hover{
+.projects-class .git:hover{
     color:green;
 }
+
