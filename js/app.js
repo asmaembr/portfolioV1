@@ -24,8 +24,8 @@ $('.preloader').addClass('complete');
 
     //progress bars
     var waypoint = new Waypoint({
-        element: document.getElementById('exp-id'),
-        handler: function() {
+        element: document.getElementById('skills'),
+        handler:  function() {
     var p =document.querySelectorAll('.progress-bar');
     p[0].setAttribute("style","width:90%;transition:1s all");
     p[1].setAttribute("style","width:60%;transition:1.5s all");
@@ -37,7 +37,7 @@ $('.preloader').addClass('complete');
 
         },
 
-        offset:'90%'
+        offset:'80%'
 
       });
 
@@ -58,21 +58,16 @@ $('.preloader').addClass('complete');
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Get all the navbar links
     const navLinks = document.querySelectorAll('.navbar-nav a');
-
-    // Add click event listener to each navbar link
     navLinks.forEach(function (link) {
         link.addEventListener('click', function (e) {
             e.preventDefault();
-
-            // Get the target section's ID from the href attribute
             const targetId = this.getAttribute('href').substring(1);
-
-            // Scroll smoothly to the target section
             document.getElementById(targetId).scrollIntoView({
                 behavior: 'smooth'
             });
         });
     });
 });
+
+

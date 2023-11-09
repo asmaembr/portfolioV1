@@ -217,7 +217,7 @@ font-size: 30px;
     display: inline-block;
     width: 50px;
     height: 50px;
-    font-size: 20px;
+    font-size: 35px;
     line-height: 40px;
     transition: 0.5s all;
     text-align: center;
@@ -340,4 +340,49 @@ footer .r-icon a:hover{
 border: 1px solid #eee;
 color: #eee;
 transition: .5s all;
+}
+
+/*contact form*/
+form{
+    background: #edf2f4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    border-radius: 30px;
+
+}
+
+form h4{
+    color: green !important;
+    margin-bottom: 20px;
+}
+
+form input,form textarea{
+    border :0;
+    border-radius: 30px;
+    margin: 10px 0;
+    padding: 20px;
+    outline:none;
+}
+
+form button{
+    padding: 15px;
+    background: #1d3557;
+    color: #edf2f4;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    width: 150px;
+    margin: 20px auto 0;
+}
+
+form button:hover{
+    padding: 15px;
+    background: green;
+    color: #edf2f4;
+    outline: none;
+    border-radius: 30px;
+    width: 150px;
+    margin: 20px auto 0;
 }
