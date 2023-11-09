@@ -55,3 +55,24 @@ $('.preloader').addClass('complete');
 
 
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Get all the navbar links
+    const navLinks = document.querySelectorAll('.navbar-nav a');
+
+    // Add click event listener to each navbar link
+    navLinks.forEach(function (link) {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            // Get the target section's ID from the href attribute
+            const targetId = this.getAttribute('href').substring(1);
+
+            // Scroll smoothly to the target section
+            document.getElementById(targetId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+});
