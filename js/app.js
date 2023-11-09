@@ -1,4 +1,8 @@
 $(document).ready(function(){
+$(window).on('load',function(){
+$('.preloader').addClass('complete');
+});
+
     $(window).on('scroll',function(){
         var scroll=$(window).scrollTop();
         if(scroll>=50){
