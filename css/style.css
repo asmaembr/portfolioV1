@@ -219,3 +219,9 @@ background: #edf2f4;
     color:green;
 }
 
+
+/*carousel*/
+.gui-class .gui-item{
+max-width: 300px;
+margin:50px auto;
+}
