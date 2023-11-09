@@ -36,14 +36,18 @@ $(document).ready(function(){
         offset:'90%'
 
       });
-      //owl carousel
- 
-        $(".owl-carousel").owlCarousel({
-            loop:true,
-            autoplay:true,
-            autoplayTimeout:4000,
-            items:1,
 
-        });
+ //owl caroussel
+    $('.owl-carousel').owlCarousel({
+        margin:10,
+        autoplay:true,
+        loop:true,
+        dots:false,
+        items:3
+    });
+
+
+
+
 
 });
