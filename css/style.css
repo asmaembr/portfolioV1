@@ -109,6 +109,7 @@ visibility: hidden;
     transform: translate(-50%,-50% ) rotate(360deg);
    }
   }
+
 /* navigation*/
 nav .a-nav{
     background: transparent;
@@ -161,6 +162,7 @@ nav.stickyadd .navbar-nav .nav-link{
 nav.stickyadd .hamburger{
     color: #edf2f4;
 }
+
 /*header section*/
 header{
     height : 100vh;
@@ -230,33 +232,6 @@ font-size: 30px;
 }
 
 
-/*skills*/
-.exp-class{
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/stars.jpg');
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-}
-
-.exp-class .progress {
-    
-    height: 10px;
-    border-radius: 20px;
-    font-size: 10px;
-
-}
-
-.progress-bar{
-
-    background-color: green !important;
-}
-
-.exp-class label{
-    color:#edf2f4 !important ;
-    font-size: 20px;
-    margin: 10px;
-}
 
 /* Project Section*/
 
@@ -298,26 +273,19 @@ background: #edf2f4;
     color:green;
 }
 
-.owl-carousel img{
- max-width: 300px;
-
-}
-
-.gui-class {
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/blue-sky.jpg');
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-}
-
 /*contact Me*/
+.contact  {  
+background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('../images/stars.jpg');
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+}
 .contact .r-icon i{
     font-size: 30px;
     text-align: center;
     color:green;
-}
 
+}
 
 
 /*footer*/
@@ -341,6 +309,7 @@ border: 1px solid #eee;
 color: #eee;
 transition: .5s all;
 }
+
 
 /*contact form*/
 form{
