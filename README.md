@@ -1,1 +1,1 @@
-consultez [moubarrizasmae.me ](https://moubarrizasmae.rf.gd/)
+consultez [moubarrizasmae.rf.gd ](https://moubarrizasmae.rf.gd/)
